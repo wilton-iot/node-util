@@ -22,7 +22,7 @@ define(function(){var require = WILTON_requiresync;var module = {exports: {}};va
 
 var assert = require('assert');
 
-var util = require('../../');
+var util = require('util/');
 
 suite('is');
 

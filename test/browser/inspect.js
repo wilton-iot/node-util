@@ -21,7 +21,7 @@ define(function(){var require = WILTON_requiresync;var module = {exports: {}};va
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 var assert = require('assert');
-var util = require('../../');
+var util = require('util/');
 
 suite('inspect');
 
