@@ -1,3 +1,4 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -81,3 +82,5 @@ assert.deepEqual(util._extend({a:1}, true),       {a:1});
 assert.deepEqual(util._extend({a:1}, false),      {a:1});
 assert.deepEqual(util._extend({a:1}, {b:2}),      {a:1, b:2});
 assert.deepEqual(util._extend({a:1, b:2}, {b:3}), {a:1, b:3});
+
+return module.exports;});

@@ -1,3 +1,4 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -84,3 +85,5 @@ function child() {
   debug('number=%d string=%s obj=%j', 1234, 'asdf', { foo: 'bar' });
   console.log('ok');
 }
+
+return module.exports;});

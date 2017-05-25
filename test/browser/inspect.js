@@ -1,3 +1,4 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -39,3 +40,5 @@ test('util.inspect -  exceptions should print the error message, not \'{}\'', fu
   assert.equal(util.inspect(new TypeError('FAIL')), '[TypeError: FAIL]');
   assert.equal(util.inspect(new SyntaxError('FAIL')), '[SyntaxError: FAIL]');
 });
+
+return module.exports;});

@@ -1,3 +1,4 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -523,7 +524,7 @@ function isPrimitive(arg) {
 }
 exports.isPrimitive = isPrimitive;
 
-exports.isBuffer = require('./support/isBuffer');
+exports.isBuffer = require('util/support/isBuffer');
 
 function objectToString(o) {
   return Object.prototype.toString.call(o);
@@ -584,3 +585,5 @@ exports._extend = function(origin, add) {
 function hasOwnProperty(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 }
+
+return module.exports;});

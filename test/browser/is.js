@@ -1,3 +1,4 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -89,3 +90,5 @@ test('util.isBuffer', function () {
   assert.equal(false, util.isRegExp(new Date()));
   assert.equal(true, util.isBuffer(Object.create(Buffer.prototype)));
 });
+
+return module.exports;});

@@ -1,3 +1,4 @@
+define(function(){var require = WILTON_requiresync;var module = {exports: {}};var exports = module.exports;
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -75,3 +76,5 @@ function CustomError(msg) {
 }
 util.inherits(CustomError, Error);
 assert.equal(util.format(new CustomError('bar')), '[CustomError: bar]');
+
+return module.exports;});
