@@ -27,5 +27,10 @@
   },
   "browser": {
     "./support/isBuffer.js": "./support/isBufferBrowser.js"
+  },
+  "wilton": {
+    "excludes": [
+      "test"
+    ]
   }
 }
